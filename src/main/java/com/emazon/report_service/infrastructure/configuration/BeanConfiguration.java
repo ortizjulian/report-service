@@ -2,7 +2,7 @@ package com.emazon.report_service.infrastructure.configuration;
 
 
 import com.emazon.report_service.domain.api.ISaleReportServicePort;
-import com.emazon.report_service.domain.domain.SaleReportUseCase;
+import com.emazon.report_service.domain.usecase.SaleReportUseCase;
 import com.emazon.report_service.domain.spi.ISaleReportPersistencePort;
 import com.emazon.report_service.infrastructure.output.mongo.adapter.SaleReportMongoAdapter;
 import com.emazon.report_service.infrastructure.output.mongo.mapper.SaleReportEntityMapper;

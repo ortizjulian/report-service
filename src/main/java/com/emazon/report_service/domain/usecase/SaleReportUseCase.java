@@ -1,4 +1,4 @@
-package com.emazon.report_service.domain.domain;
+package com.emazon.report_service.domain.usecase;
 
 import com.emazon.report_service.domain.api.ISaleReportServicePort;
 import com.emazon.report_service.domain.model.SaleReport;
@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 public class SaleReportUseCase implements ISaleReportServicePort {
 
-    private final ISaleReportPersistencePort saleReportPersistencePort;
+    private  ISaleReportPersistencePort saleReportPersistencePort;
 
     public SaleReportUseCase(ISaleReportPersistencePort saleReportPersistencePort) {
         this.saleReportPersistencePort = saleReportPersistencePort;

@@ -18,6 +18,10 @@ public class SaleReport {
         this.purchasedItems = purchasedItems;
     }
 
+    public SaleReport() {
+
+    }
+
     public String getId() {
         return id;
     }

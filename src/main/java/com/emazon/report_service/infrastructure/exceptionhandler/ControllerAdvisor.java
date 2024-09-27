@@ -14,8 +14,6 @@ import java.util.Map;
 @ControllerAdvice
 public class ControllerAdvisor {
 
-    private static final String MESSAGE = Constants.RESPONSE_MESSAGE_KEY;
-
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Object> handleValidationExceptions(MethodArgumentNotValidException methodArgumentNotValidException) {
         Map<String, String> errors = new HashMap<>();
