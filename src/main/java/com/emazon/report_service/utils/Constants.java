@@ -11,11 +11,8 @@ public class Constants {
     public static final String RESPONSE_MESSAGE_KEY = "Message";
 
     public static final int MIN_SELL_PRICE = 0;
-    public static final String EXCEPTION_PURCHASE_DATE_NULL = "The purchase date cannot be null.";
     public static final String EXCEPTION_TOTAL_COST_NEGATIVE = "The total cost cannot be negative.";
     public static final String EXCEPTION_PURCHASED_ITEMS_EMPTY = "The list of purchased items cannot be empty.";
-    public static final String EXCEPTION_USER_EMAIL_MANDATORY = "Email is mandatory";
-    public static final String EXCEPTION_USER_EMAIL_INVALID = "Email should be valid";
     //SaleItemDto
     public static final String EXCEPTION_ARTICLE_ID_NULL = "The article ID cannot be null.";
     public static final String EXCEPTION_SALE_ITEM_QUANTITY_NEGATIVE = "The sale item quantity must be a non-negative number.";
