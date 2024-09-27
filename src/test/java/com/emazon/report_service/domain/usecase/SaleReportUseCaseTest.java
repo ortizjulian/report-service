@@ -25,7 +25,7 @@ class SaleReportUseCaseTest {
     }
 
     @Test
-    void createSale_ShouldSetPurchaseDateAndSaveSaleReport() {
+    void SaleReportUseCase_CreateSale_ShouldSetPurchaseDateAndSaveSaleReport() {
 
         SaleReport saleReport = new SaleReport();
         saleReport.setBuyerEmail("julian@ortixs.com");
